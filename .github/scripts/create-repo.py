@@ -35,14 +35,12 @@ for info_file in sorted(INFO_DIR.glob("*.json")):
     module = info["module"]  # e.g. "ru.readmanga"
     lang = module.split(".")[0]
 
-    apk = APK_DIR / f"tachiyomi-{module}-v{info['versionName']}.apk"
+    # The apk is named after the package suffix, which a few extensions override
+    # (e.g. module ru.slashlib ships as ru.yaoilib) — never after the module.
+    pkg_suffix = package_name.removeprefix("eu.kanade.tachiyomi.extension.")
+    apk = APK_DIR / f"tachiyomi-{pkg_suffix}-v{info['versionName']}.apk"
     if not apk.exists():
-        matches = sorted(APK_DIR.glob(f"*{module.replace('.', '-')}*.apk")) or sorted(
-            APK_DIR.glob(f"*{module.split('.')[-1]}*.apk")
-        )
-        if not matches:
-            raise FileNotFoundError(f"{package_name}: no apk found for module {module}")
-        apk = matches[0]
+        raise FileNotFoundError(f"{package_name}: expected apk {apk.name}")
 
     # The extension's own icon, else its theme's, else the shared default.
     candidates = [SRC_DIR / module.replace(".", "/") / ICON_PATH]
