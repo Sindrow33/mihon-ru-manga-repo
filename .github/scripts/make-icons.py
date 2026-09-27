@@ -12,7 +12,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-SRC = Path(__file__).resolve().parents[2] / "src" / "ru"
+SRC = Path(__file__).resolve().parents[2] / "src"
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 # density -> icon side in px
@@ -28,6 +28,7 @@ MASTER = 768  # render big, downscale for clean edges
 SCALE = MASTER / 192
 
 # ext dir -> (monogram, accent rgb, dark fill rgb)
+# Ключ либо "<ext>" (лежит в src/ru), либо "<lang>/<ext>" для остальных языков.
 ICONS = {
     "acomics": ("AC", (255, 150, 60), (34, 24, 14)),
     "allhentai": ("AH", (255, 70, 110), (36, 16, 24)),
@@ -60,6 +61,17 @@ ICONS = {
     "wamanga": ("WM", (130, 180, 255), (18, 24, 40)),
     "yagamiproject": ("YP", (200, 220, 120), (28, 32, 16)),
     "yaoichan": ("YC", (245, 100, 180), (34, 16, 28)),
+    # src/all — мультиязычные источники (18+ галереи)
+    "all/hentai3": ("3H", (255, 80, 120), (36, 16, 24)),
+    "all/imhentai": ("IM", (255, 120, 90), (36, 20, 18)),
+    "all/hentaiera": ("HE", (255, 90, 140), (36, 16, 26)),
+    "all/hentaienvy": ("HV", (200, 110, 255), (28, 18, 38)),
+    "all/hentaizap": ("HZ", (255, 200, 80), (36, 28, 14)),
+    "all/hentaihand": ("HH", (120, 200, 255), (16, 26, 40)),
+    "all/akuma": ("AK", (235, 70, 70), (34, 16, 16)),
+    "all/pandachaika": ("PC", (170, 225, 255), (16, 26, 36)),
+    "all/mangadex": ("MD", (255, 103, 64), (36, 20, 16)),
+    "all/kagane": ("KG", (140, 220, 200), (16, 30, 28)),
 }
 
 
@@ -108,7 +120,8 @@ def main(only=None):
             continue
         master = render(monogram, accent, fill)
         for density, side in DENSITIES.items():
-            out = SRC / ext / "res" / f"mipmap-{density}" / "ic_launcher.png"
+            rel = ext if "/" in ext else f"ru/{ext}"
+            out = SRC / rel / "res" / f"mipmap-{density}" / "ic_launcher.png"
             out.parent.mkdir(parents=True, exist_ok=True)
             master.resize((side, side), Image.LANCZOS).save(out)
         print(f"{ext}: {monogram}")
