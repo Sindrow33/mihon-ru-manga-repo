@@ -85,6 +85,9 @@ ICONS = {
     "all/novelcool": ("NV", (150, 210, 255), (16, 26, 38)),
     "all/simplyhentai": ("SH", (255, 90, 170), (36, 16, 28)),
     "all/xcomic": ("XC", (220, 120, 255), (30, 18, 38)),
+    "all/dragonballmultiverse": ("DB", (255, 165, 60), (36, 26, 14)),
+    "all/leagueoflegends": ("LL", (200, 175, 110), (30, 26, 16)),
+    "all/xkcd": ("XK", (190, 200, 215), (22, 24, 28)),
 }
 
 
