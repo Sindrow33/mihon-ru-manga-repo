@@ -154,6 +154,23 @@
     ]
   },
   {
+    "name": "Dragon Ball Multiverse",
+    "pkg": "eu.kanade.tachiyomi.extension.all.dragonballmultiverse",
+    "apk": "tachiyomi-all.dragonballmultiverse-v1.4.8.apk",
+    "lang": "all",
+    "code": 104008,
+    "version": "1.4.8",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Dragon Ball Multiverse",
+        "lang": "ru",
+        "id": "7944056408443917590",
+        "baseUrl": "https://www.dragonball-multiverse.com"
+      }
+    ]
+  },
+  {
     "name": "GlobalComix",
     "pkg": "eu.kanade.tachiyomi.extension.all.globalcomix",
     "apk": "tachiyomi-all.globalcomix-v1.4.4.apk",
@@ -350,6 +367,23 @@
         "lang": "ru",
         "id": "8751507648303673848",
         "baseUrl": "https://kagane.to"
+      }
+    ]
+  },
+  {
+    "name": "League of Legends",
+    "pkg": "eu.kanade.tachiyomi.extension.all.leagueoflegends",
+    "apk": "tachiyomi-all.leagueoflegends-v1.4.2.apk",
+    "lang": "all",
+    "code": 104002,
+    "version": "1.4.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "League of Legends",
+        "lang": "ru",
+        "id": "6359895141227528344",
+        "baseUrl": "https://universe.leagueoflegends.com/ru_ru/comic/"
       }
     ]
   },
@@ -980,6 +1014,23 @@
         "lang": "ru",
         "id": "2466512768990363955",
         "baseUrl": "https://yaoi-chan.me"
+      }
+    ]
+  },
+  {
+    "name": "xkcd",
+    "pkg": "eu.kanade.tachiyomi.extension.all.xkcd",
+    "apk": "tachiyomi-all.xkcd-v1.4.17.apk",
+    "lang": "all",
+    "code": 104017,
+    "version": "1.4.17",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "xkcd",
+        "lang": "ru",
+        "id": "3742763978853704441",
+        "baseUrl": "https://xkcd.ru"
       }
     ]
   }
