@@ -1,5 +1,28 @@
 [
   {
+    "name": "3Hentai",
+    "pkg": "eu.kanade.tachiyomi.extension.all.hentai3",
+    "apk": "tachiyomi-all.hentai3-v1.6.5.apk",
+    "lang": "all",
+    "code": 106005,
+    "version": "1.6.5",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "3Hentai",
+        "lang": "ru",
+        "id": "4917651850397277037",
+        "baseUrl": "https://3hentai.net"
+      },
+      {
+        "name": "3Hentai",
+        "lang": "all",
+        "id": "6915411826598362561",
+        "baseUrl": "https://3hentai.net"
+      }
+    ]
+  },
+  {
     "name": "AComics",
     "pkg": "eu.kanade.tachiyomi.extension.ru.acomics",
     "apk": "tachiyomi-ru.acomics-v1.6.8.apk",
@@ -13,6 +36,29 @@
         "lang": "ru",
         "id": "1396426423555611180",
         "baseUrl": "https://acomics.ru"
+      }
+    ]
+  },
+  {
+    "name": "Akuma",
+    "pkg": "eu.kanade.tachiyomi.extension.all.akuma",
+    "apk": "tachiyomi-all.akuma-v1.4.10.apk",
+    "lang": "all",
+    "code": 104010,
+    "version": "1.4.10",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "Akuma",
+        "lang": "ru",
+        "id": "7045343433771927648",
+        "baseUrl": "https://akuma.moe"
+      },
+      {
+        "name": "Akuma",
+        "lang": "all",
+        "id": "1843646695111412994",
+        "baseUrl": "https://akuma.moe"
       }
     ]
   },
@@ -102,6 +148,75 @@
     ]
   },
   {
+    "name": "HentaiEnvy",
+    "pkg": "eu.kanade.tachiyomi.extension.all.hentaienvy",
+    "apk": "tachiyomi-all.hentaienvy-v1.6.11.apk",
+    "lang": "all",
+    "code": 106011,
+    "version": "1.6.11",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "HentaiEnvy",
+        "lang": "ru",
+        "id": "6651113074608915226",
+        "baseUrl": "https://hentaienvy.com"
+      },
+      {
+        "name": "HentaiEnvy",
+        "lang": "all",
+        "id": "918989295758523524",
+        "baseUrl": "https://hentaienvy.com"
+      }
+    ]
+  },
+  {
+    "name": "HentaiEra",
+    "pkg": "eu.kanade.tachiyomi.extension.all.hentaiera",
+    "apk": "tachiyomi-all.hentaiera-v1.6.12.apk",
+    "lang": "all",
+    "code": 106012,
+    "version": "1.6.12",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "HentaiEra",
+        "lang": "ru",
+        "id": "4966955732363898584",
+        "baseUrl": "https://hentaiera.com"
+      },
+      {
+        "name": "HentaiEra",
+        "lang": "all",
+        "id": "5238899243957092391",
+        "baseUrl": "https://hentaiera.com"
+      }
+    ]
+  },
+  {
+    "name": "HentaiHand",
+    "pkg": "eu.kanade.tachiyomi.extension.all.hentaihand",
+    "apk": "tachiyomi-all.hentaihand-v1.4.11.apk",
+    "lang": "all",
+    "code": 104011,
+    "version": "1.4.11",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "HentaiHand",
+        "lang": "ru",
+        "id": "5788099943016900736",
+        "baseUrl": "https://hentaihand.com"
+      },
+      {
+        "name": "HentaiHand",
+        "lang": "all",
+        "id": "1235047015955289468",
+        "baseUrl": "https://hentaihand.com"
+      }
+    ]
+  },
+  {
     "name": "HentaiLib",
     "pkg": "eu.kanade.tachiyomi.extension.ru.hentailib",
     "apk": "tachiyomi-ru.hentailib-v1.4.62.apk",
@@ -119,6 +234,52 @@
     ]
   },
   {
+    "name": "HentaiZap",
+    "pkg": "eu.kanade.tachiyomi.extension.all.hentaizap",
+    "apk": "tachiyomi-all.hentaizap-v1.6.12.apk",
+    "lang": "all",
+    "code": 106012,
+    "version": "1.6.12",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "HentaiZap",
+        "lang": "ru",
+        "id": "6614026304171193007",
+        "baseUrl": "https://hentaizap.com"
+      },
+      {
+        "name": "HentaiZap",
+        "lang": "all",
+        "id": "279262715881564190",
+        "baseUrl": "https://hentaizap.com"
+      }
+    ]
+  },
+  {
+    "name": "IMHentai",
+    "pkg": "eu.kanade.tachiyomi.extension.all.imhentai",
+    "apk": "tachiyomi-all.imhentai-v1.6.25.apk",
+    "lang": "all",
+    "code": 106025,
+    "version": "1.6.25",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "IMHentai",
+        "lang": "ru",
+        "id": "7505608677115153818",
+        "baseUrl": "https://imhentai.xxx"
+      },
+      {
+        "name": "IMHentai",
+        "lang": "all",
+        "id": "3395462671769287908",
+        "baseUrl": "https://imhentai.xxx"
+      }
+    ]
+  },
+  {
     "name": "InkStory",
     "pkg": "eu.kanade.tachiyomi.extension.ru.inkstory",
     "apk": "tachiyomi-ru.inkstory-v1.6.2.apk",
@@ -132,6 +293,23 @@
         "lang": "ru",
         "id": "2026387314200968454",
         "baseUrl": "https://inkstory.net"
+      }
+    ]
+  },
+  {
+    "name": "Kagane",
+    "pkg": "eu.kanade.tachiyomi.extension.all.kagane",
+    "apk": "tachiyomi-all.kagane-v1.6.31.apk",
+    "lang": "all",
+    "code": 106031,
+    "version": "1.6.31",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Kagane",
+        "lang": "ru",
+        "id": "8751507648303673848",
+        "baseUrl": "https://kagane.to"
       }
     ]
   },
@@ -183,6 +361,23 @@
         "lang": "ru",
         "id": "7",
         "baseUrl": "https://im.manga-chan.me"
+      }
+    ]
+  },
+  {
+    "name": "MangaDex",
+    "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
+    "apk": "tachiyomi-all.mangadex-v1.6.0.apk",
+    "lang": "all",
+    "code": 106000,
+    "version": "1.6.0",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "MangaDex",
+        "lang": "ru",
+        "id": "2098905203823335614",
+        "baseUrl": "https://mangadex.org"
       }
     ]
   },
@@ -302,6 +497,29 @@
         "lang": "ru",
         "id": "6384784374922886076",
         "baseUrl": "https://nude-moon.org"
+      }
+    ]
+  },
+  {
+    "name": "PandaChaika",
+    "pkg": "eu.kanade.tachiyomi.extension.all.pandachaika",
+    "apk": "tachiyomi-all.pandachaika-v1.4.4.apk",
+    "lang": "all",
+    "code": 104004,
+    "version": "1.4.4",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "PandaChaika",
+        "lang": "ru",
+        "id": "5221951741432177903",
+        "baseUrl": "https://panda.chaika.moe"
+      },
+      {
+        "name": "PandaChaika",
+        "lang": "all",
+        "id": "8212157560459310944",
+        "baseUrl": "https://panda.chaika.moe"
       }
     ]
   },
